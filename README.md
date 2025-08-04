@@ -1,25 +1,96 @@
-### JS 階段
+# JavaScript/TypeScript
 
-第 1：基礎語法
+## 🚀 學習目標
 
-✅ 01-variables-types.ts - 變數宣告與型別判斷
-✅ 02-strings-templates.ts - 字串操作與模板字串
-✅ 03-numbers-conversion.ts - 數字運算與型別轉換
+JavaScript 和 TypeScript
 
-🕑 第 2：陣列與函數
+---
 
-✅ 04-array-operations.ts - 陣列進階操作
-✅ 05-function-types.ts - 函數類型與參數處理
-✅ 06-arrow-functions.ts - 箭頭函數深度應用
+## 📚 學習階段
 
-🕒 第 3：物件與解構
+### 🕐 第 1 階段：基礎語法
 
-✅ 07-object-methods.ts - 物件操作與方法
-✅ 08-destructuring.ts - 解構賦值深度應用
-✅ 09-spread-operator.ts - 展開運算符應用
+**目標：掌握 JS/TS 基本語法和型別系統**
 
-🕓 第 4：進階概念
+| 檔案名稱                   | 學習重點           | 預估時間 |
+| -------------------------- | ------------------ | -------- |
+| `01-variables-types.ts`    | 變數宣告與型別判斷 |
+| `02-strings-templates.ts`  | 字串操作與模板字串 |
+| `03-numbers-conversion.ts` | 數字運算與型別轉換 |
 
-✅ 10-control-flow.ts - 流程控制進階應用
-⏳ 11-higher-order.ts - 高階函數
-⏳ 12-promises.ts - Promise 與異步
+**階段重點：**
+
+- `let`, `const`, `var` 的差異和使用時機
+- TypeScript 基本型別：`string`, `number`, `boolean`, `array`
+- 模板字串 (Template Literals) 的實際應用
+- 型別轉換和檢查方法
+
+---
+
+### 🕑 第 2 階段：陣列與函數
+
+**目標：熟練陣列操作和函數概念**
+
+| 檔案名稱                 | 學習重點           | 預估時間 |
+| ------------------------ | ------------------ | -------- |
+| `04-array-operations.ts` | 陣列進階操作       |
+| `05-function-types.ts`   | 函數類型與參數處理 |
+| `06-arrow-functions.ts`  | 箭頭函數深度應用   |
+
+**階段重點：**
+
+- 陣列方法：`map()`, `filter()`, `reduce()`, `forEach()`
+- 函數參數型別定義和回傳值型別
+- 箭頭函數 vs 傳統函數的差異
+- `this` 綁定概念
+
+---
+
+### 🕒 第 3 階段：物件與解構
+
+**目標：掌握物件導向和現代 JS 語法**
+
+| 檔案名稱                | 學習重點         | 預估時間 |
+| ----------------------- | ---------------- | -------- |
+| `07-object-methods.ts`  | 物件操作與方法   |
+| `08-destructuring.ts`   | 解構賦值深度應用 |
+| `09-spread-operator.ts` | 展開運算符應用   |
+
+**階段重點：**
+
+- 物件屬性和方法定義
+- 解構賦值在陣列和物件中的應用
+- 展開運算符 (`...`) 的多種用法
+- 物件複製和合併技巧
+
+---
+
+### 🕓 第 4 階段：進階概念
+
+**目標：理解進階概念，為 React 開發做準備**
+
+| 檔案名稱             | 學習重點         | 預估時間 |
+| -------------------- | ---------------- | -------- |
+| `10-control-flow.ts` | 流程控制進階應用 |
+| `11-higher-order.ts` | 高階函數         |
+| `12-promises.ts`     | Promise 與異步   |
+
+**階段重點：**
+
+- 條件判斷和迴圈的進階用法
+- 高階函數概念和實際應用
+- Promise, async/await 異步處理
+- 錯誤處理 (try/catch)
+
+---
+
+## 🎯 學習建議
+
+### 📝 實作重點
+
+- **每個檔案都要親手練習**，不只是閱讀理解
+- **寫註解說明**每行程式碼的用途
+- **使用 console.log()** 印證結果
+- **嘗試不同的測試案例**
+
+---
