@@ -19,3 +19,14 @@ console.log("空陣列:", empty);
 const arrayFromConstructor = new Array(5).fill(0); //[0, 0, 0, 0, 0]
 const arrayFromOf = Array.of(1, 2, 3, 4, 5); // [1, 2, 3, 4, 5]
 const arrayFromRange = Array.from({ length: 5 }, (_, i) => i + 1); // [0, 1, 2, 3, 4]
+
+console.log("建構子建立（填充0)", arrayFromConstructor);
+console.log("Array.of 建立", arrayFromOf);
+console.log("Array.from 建立", arrayFromRange);
+
+// 陣列基本屬性
+console.log("陣列長度", fruits.length);
+console.log("第一個水果", fruits[0]);
+console.log("最後一個水果", fruits[fruits.length - 1]);
+
+// 2. 陣列新增與移除元件
