@@ -242,4 +242,5 @@ const stringNumber: string[] = [
 
 console.log("測試字串", stringNumber);
 
-// Number()
+// Number() 嚴格轉換
+
