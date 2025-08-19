@@ -30,3 +30,13 @@ console.log("第一個水果", fruits[0]);
 console.log("最後一個水果", fruits[fruits.length - 1]);
 
 // 2. 陣列新增與移除元件
+const shoppingCart: string[] = ["milk", "bread"];
+console.log("購物車初始狀態", shoppingCart);
+
+// 尾端新增/移除
+
+shoppingCart.push("apple")
+
+
+
+// 相關陣列方式

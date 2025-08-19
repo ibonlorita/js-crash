@@ -243,4 +243,55 @@ const stringNumber: string[] = [
 console.log("測試字串", stringNumber);
 
 // Number() 嚴格轉換
+stringNumber.forEach(str => {
+  const result = Number(str);
+  console.log(`Number("${str}") = ${result} (型別：${typeof result})`);
+})
+
+// parseInt() 解析整數 (只取整數部分，砍掉小數點)
+stringNumber.forEach(str => {
+  const result = parseInt(str);
+  console.log(`parseInt("${str}") = ${result} (型別：${typeof result})`);
+})
+
+// perseFloat() 解析浮點數 (保留小數點)
+stringNumber.forEach(str => {
+  const result = parseFloat(str);
+  console.log(`parseFloat("${str}") = ${result} (型別： ${typeof result})`)
+})
+
+// 運算符號轉換
+stringNumber.forEach(str => {
+  const result = +str;
+  console.log(`+${str} = ${result} (型別：${typeof result})`);
+})
+
+
+//  進階轉換
+const binaryString: string = "1010"; // 二進位
+const octalString: string = "755"; // 八進位
+const hexString: string = "FF"; // 十六進位
+
+console.log("二進位轉換:", parseInt(binaryString, 2));
+console.log("八進位轉換:", parseInt(octalString, 8));
+console.log("十六進位轉換:", parseInt(hexString, 16));
+
+console.log(`parseInt("${binaryString}", 2) = ${parseInt(binaryString, 2)}`);
+console.log(`parseInt("${octalString}", 8) = ${parseInt(octalString, 8)}`);
+console.log(`parseInt("${hexString}", 16) = ${parseInt(hexString, 16)}`);
+
+
+// 數字轉換為不同進位制字串
+const decimal: number = 255;
+console.log(`${decimal}不同進位方式`)
+console.log("2進位:", decimal.toString(2));
+console.log("8進位:", decimal.toString(8));
+console.log("16進位:", decimal.toString(16));
+
+// 數字轉字串
+const testNumber: number = 12345.6789;
+
+console.log(`testNumber = ${testNumber}`);
+console.log("String()轉換:", String(testNumber));
+
 
